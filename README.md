@@ -25,3 +25,12 @@ Staging site for SoftwareSeni 3.0 development
 ### Editing CSS
 * All CSS is compiled from folder `/sass`, so edit `.scss` file on `/sass` folder instead.
 * Codekit or grunt will automatically watch for changes and compile it to `/css` folder
+
+## Push Update / Pull Request
+* If you're coming from `git clone`, skip this step
+* Run `git init`
+* Run `git remote add origin https://github.com/SoftwareSeniPT/softwareseni.git`
+* Run `git checkout gh-pages`
+* Commit and push your update to branch `gh-pages`
+* Staging URL available at https://softwaresenipt.github.io/softwareseni
+
