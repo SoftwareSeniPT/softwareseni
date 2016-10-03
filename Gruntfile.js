@@ -21,6 +21,14 @@ module.exports = function(grunt) {
             }
           }
         },
+        connect: {
+          server: {
+            options: {
+              port: 9001,
+              base: ''
+            }
+          }
+        },
         watch: {
             codekit: {
                 files: ['**/*.kit', '!node_modules/**'],
@@ -37,5 +45,5 @@ module.exports = function(grunt) {
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['connect', 'watch']);
 };

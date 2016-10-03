@@ -4,6 +4,6 @@
 	"sources": [
 		"../sass/mobile.scss"
 	],
-	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,KAAK,EAAE,GACR,GAAC",
+	"mappings": "",
 	"names": []
 }
