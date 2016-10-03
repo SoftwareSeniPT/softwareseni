@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'bree_light';
+    src: url('ufonts.com_bree-light-opentype-webfont.eot');
+    src: url('ufonts.com_bree-light-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ufonts.com_bree-light-opentype-webfont.woff2') format('woff2'),
+         url('ufonts.com_bree-light-opentype-webfont.woff') format('woff'),
+         url('ufonts.com_bree-light-opentype-webfont.ttf') format('truetype'),
+         url('ufonts.com_bree-light-opentype-webfont.svg#bree_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
