@@ -1,0 +1,26 @@
+{
+  "name": "softwareseni-3.0",
+  "version": "1.0.0",
+  "description": "Homepage for SoftwareSeni.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareSeniPT/softwareseni.git"
+  },
+  "author": "SoftwareSeni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareSeniPT/softwareseni/issues"
+  },
+  "homepage": "https://github.com/SoftwareSeniPT/softwareseni#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-codekit": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
