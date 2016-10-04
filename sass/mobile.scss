@@ -1,5 +1,21 @@
 @media (max-width: 769px) {
-
+  .ss-foot{
+    &-contact{
+      text-align: center;
+      padding: 0 20px;
+      float: left;
+      margin: 60px auto 30px;
+    }
+    &-address{
+      text-align: center !important;
+    }
+    &-sosmed{
+      margin: 0;
+    }
+  }
+  .p-left-8{
+    padding: 15px;
+  }
 }
 
 @media (max-width: 480px) {

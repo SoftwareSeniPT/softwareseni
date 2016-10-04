@@ -1,2 +1,14 @@
+@media (max-width: 769px) {
+  .ss-foot-contact {
+    text-align: center;
+    padding: 0 20px;
+    float: left;
+    margin: 60px auto 30px; }
+  .ss-foot-address {
+    text-align: center !important; }
+  .ss-foot-sosmed {
+    margin: 0; }
+  .p-left-8 {
+    padding: 15px; } }
 
 /*# sourceMappingURL=mobile.css.map */
