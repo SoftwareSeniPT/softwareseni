@@ -2,7 +2,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'bree_light', Arial, sans-serif;
   font-size: 15px;
   font-size: 1.5rem;
   color: #525252;
@@ -37,7 +37,6 @@ body {
     display: inline-block; }
     .ss-head-menu .nav li a {
       font-size: 1.4rem;
-      font-family: 'bree_light', Arial, sans-serif;
       padding: 70px 8px 5px;
       text-transform: uppercase;
       color: #304c4a; }
@@ -51,7 +50,6 @@ body {
 
 .ss-caption {
   max-width: 500px;
-  font-family: 'bree_light', Arial, sans-serif;
   font-weight: normal;
   top: 26%;
   position: absolute;
@@ -73,7 +71,6 @@ body {
       margin-right: 5px;
       padding: 10px 25px;
       font-size: 1.8rem;
-      font-family: 'bree_light', Arial, sans-serif;
       color: white;
       text-decoration: none;
       text-transform: uppercase;
@@ -85,7 +82,6 @@ body {
 .ss-btn {
   padding: 10px 25px;
   font-size: 1.8rem;
-  font-family: 'bree_light', Arial, sans-serif;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -93,11 +89,14 @@ body {
   background: #304c4a; }
   .ss-btn.btn-1 {
     background: #15a99e; }
+  .ss-btn:hover {
+    background: #304c4a;
+    text-decoration: none;
+    color: white; }
 
 .ss-featured {
   overflow: hidden;
   position: absolute;
-  font-family: 'bree_light', Arial, sans-serif;
   padding: 13px 0;
   text-align: center;
   bottom: 0;
@@ -126,17 +125,17 @@ body {
     margin: 0 0 50px;
     padding: 0 0 20px;
     color: #304c4a;
-    font-family: 'bree_serif', Arial, sans-serif; }
-  .ss-portofolio-title:after {
-    content: "";
-    width: 80px;
-    height: 3px;
-    background: #304c4a;
-    margin: 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0; }
+    font-weight: bold; }
+    .ss-portofolio-title:after {
+      content: "";
+      width: 80px;
+      height: 3px;
+      background: #304c4a;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0; }
   .ss-portofolio-content {
     padding: 20px 0; }
 
@@ -184,5 +183,59 @@ body {
 
 .m-top {
   margin-top: 50px; }
+
+.ss-wwd {
+  padding: 90px 0;
+  background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/wwd-bg.jpg"); }
+  .ss-wwd-title {
+    position: relative;
+    font-size: 4.0rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 50px;
+    padding: 0 0 20px;
+    color: #fff; }
+    .ss-wwd-title:after {
+      content: "";
+      width: 80px;
+      height: 3px;
+      background: #fff;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  .ss-wwd-content {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px 40px; }
+  .ss-wwd-thumb {
+    text-align: center; }
+    .ss-wwd-thumb img {
+      width: 319px;
+      height: auto; }
+  .ss-wwd-top {
+    border-bottom: 2px solid #fff;
+    padding: 0 0 20px;
+    margin: 0 0 15px; }
+    .ss-wwd-top-title {
+      font-size: 2.4rem;
+      font-weight: 900;
+      margin: 15px 0 20px; }
+    .ss-wwd-top-list {
+      position: relative;
+      padding: 0 0 20px 18px;
+      font-size: 1.8rem; }
+      .ss-wwd-top-list:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 8px;
+        height: 8px;
+        background: #15a99e;
+        border-radius: 50%; }
+
+.m-lr-0 {
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
