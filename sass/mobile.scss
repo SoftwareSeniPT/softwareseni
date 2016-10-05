@@ -61,8 +61,13 @@
     }
 
     .ss-caption {
+        h5 {
+            width: 70%;
+        }
+
         &-button {
-          text-align: center;
+            text-align: center;
+
             .ss-btn {
                 width: 71%;
                 margin-bottom: 10px;
@@ -99,17 +104,41 @@
         }
     }
 }
+@media (max-width: 569px) and(orientation:landscape) {
+    .ss-hero {
+        height: 125vh;
+    }
+
+    .ss-caption {
+        &-button {
+            .ss-btn {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+@media (max-width: 480px) and (orientation:landscape) {
+    .container {
+        .ss-caption {
+            top: 22%;
+
+            &-button {
+                padding-left: 30px;
+
+                .ss-btn {
+                    width: 106%;
+                }
+            }
+        }
+    }
+}
 @media (max-width: 480px) {
     .ss-caption {
         width: 87%;
-        top: 18%;
+        top: 15%;
 
         h1 {
             font-size: 2.8rem;
-        }
-
-        h5 {
-            width: 55%;
         }
     }
 
