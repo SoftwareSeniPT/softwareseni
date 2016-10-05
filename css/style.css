@@ -11,7 +11,8 @@ body {
   background-color: #fff;
   width: 100%; }
 
-a, a:hover {
+a,
+a:hover {
   color: #15a99e;
   text-decoration: none; }
 
@@ -29,7 +30,6 @@ a, a:hover {
       .ss-hero .navbar-brand img {
         width: 100%; }
     .ss-hero .navbar .container .row {
-      display: flex;
       align-items: center;
       justify-content: center; }
 
@@ -39,7 +39,8 @@ a, a:hover {
   top: -50%;
   right: 0; }
   .ss-head-menu .nav li {
-    display: inline-block; }
+    display: inline-block;
+    padding-top: 15px; }
     .ss-head-menu .nav li a {
       font-size: 1.4rem;
       padding: 70px 8px 5px;
@@ -54,7 +55,7 @@ a, a:hover {
     color: #fff; }
 
 .ss-caption {
-  max-width: 500px;
+  width: 550px;
   font-weight: normal;
   top: 26%;
   position: absolute; }
@@ -369,5 +370,35 @@ a, a:hover {
   font-size: 1.4rem; }
   .ss-footer p {
     margin: 0; }
+
+.ss-responsive-menu {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  background: #15a99e;
+  padding: 20px;
+  top: 0;
+  z-index: 999;
+  width: 260px; }
+  .ss-responsive-menu .main-menu {
+    padding: 0; }
+    .ss-responsive-menu .main-menu li {
+      list-style-type: none; }
+      .ss-responsive-menu .main-menu li a {
+        display: block;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 1.8rem;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    .ss-responsive-menu .main-menu .ss-toggle-close {
+      color: #fff;
+      font-size: 2.2rem;
+      padding: 5px 0; }
+
+.ss-toggle-menu {
+  float: right;
+  font-size: 3.5rem;
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

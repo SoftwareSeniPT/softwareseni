@@ -1,23 +1,133 @@
+@media (max-width: 1200px) {
+    .ss-toggle-menu {
+        display: inline;
+    }
+
+    .ss-head-menu {
+        display: none;
+    }
+}
+@media (max-width: 992px) {}
 @media (max-width: 769px) {
-  .ss-foot{
-    &-contact{
-      text-align: center;
-      padding: 0 20px;
-      float: left;
-      margin: 60px auto 30px;
+    .ss-foot {
+        &-contact {
+            text-align: center;
+            padding: 0 20px;
+            margin: 60px auto 30px;
+        }
+
+        &-address {
+            text-align: center !important;
+        }
+
+        &-sosmed {
+            margin: 0;
+        }
     }
-    &-address{
-      text-align: center !important;
+
+    .p-left-8 {
+        padding: 0 15px;
     }
-    &-sosmed{
-      margin: 0;
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
     }
-  }
-  .p-left-8{
-    padding: 15px;
+
+    .ss-hero {
+        .navbar {
+            padding: 30px 0 10px;
+
+            &-brand {
+                width: 170px;
+            }
+        }
+    }
+
+    .ss-toggle-menu {
+        font-size: 2.8rem;
+    }
+
+    .p-left-8 {
+        padding: 30px 15px;
+    }
+
+    .ss-foot {
+        &-sosmed {
+            &-title {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+@media (max-width: 767px) and (orientation:landscape) {
+    .ss-caption {
+        position: relative;
+        width: 100%;
+        top: 30%;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h5 {
+            font-size: 1.7rem;
+            width: 55%;
+            display: inline-block;
+        }
+
+        &-button {
+            text-align: center;
+            margin-top: 15px;
+            width: 45%;
+            float: right;
+            display: inline-block;
+
+            .ss-btn {
+                margin-bottom: 10px;
+                margin-left: 20px;
+                width: 71%;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .ss-caption {
+        width: 95%;
+        top: 18%;
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+        h5 {
+            width: 55%;
+        }
+    }
+
+    .ss-featured {
+        &-img {
+            display: table;
+
+            li {
+                display: table-cell;
+
+                a img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:340px) {
+  .ss-hero{
+    height: 125vh;
   }
 }
 
-@media (max-width: 480px) {
-
+@media (max-width:340px) and (orientation:landscape) {
+  .ss-hero{
+    height: 125vh;
+  }
 }

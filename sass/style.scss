@@ -13,9 +13,11 @@ body {
     background-color: #fff;
     width: 100%;
 }
-a, a:hover{
-  color: #15a99e;
-  text-decoration: none;
+
+a,
+a:hover {
+    color: #15a99e;
+    text-decoration: none;
 }
 
 .ss-hero {
@@ -39,7 +41,6 @@ a, a:hover{
 
         .container {
             .row {
-                display: flex;
                 align-items: center;
                 justify-content: center;
             }
@@ -56,7 +57,7 @@ a, a:hover{
 
         li {
             display: inline-block;
-
+            padding-top: 15px;
             a {
                 font-size: 1.4rem;
                 padding: 70px 8px 5px;
@@ -81,7 +82,7 @@ a, a:hover{
 }
 
 .ss-caption {
-    max-width: 500px;
+    width: 550px;
     font-weight: normal;
     top: 26%;
     position: absolute;
@@ -471,7 +472,7 @@ a, a:hover{
         max-width: 1000px;
         bottom: 20px;
         font-size: 1.6rem;
-        margin: 110px auto 30px ;
+        margin: 110px auto 30px;
     }
 
     &-country {
@@ -484,13 +485,15 @@ a, a:hover{
         color: rgba(255, 255, 255, 0.6);
         font-weight: normal;
         text-align: left !important;
-        &-address{
-          font-size: 1.6rem;
+
+        &-address {
+            font-size: 1.6rem;
         }
     }
 
     &-sosmed {
-      margin-left: 100px;
+        margin-left: 100px;
+
         &-title {
             font-size: 1.6rem;
             color: white;
@@ -508,14 +511,55 @@ a, a:hover{
 .p-left-8 {
     padding-left: 80px;
 }
-.ss-footer{
-  background: #1d302e;
-  color: #fff;
 
-  width: 100%;
-  padding: 15px 0;
-  font-size: 1.4rem;
-  p{
-    margin: 0;
-  }
+.ss-footer {
+    background: #1d302e;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.4rem;
+
+    p {
+        margin: 0;
+    }
+}
+
+.ss-responsive-menu {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    background: #15a99e;
+    padding: 20px;
+    top: 0;
+    z-index: 999;
+    width: 260px;
+
+    .main-menu {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+
+            a {
+                display: block;
+                color: #fff;
+                padding: 15px 0;
+                font-size: 1.8rem;
+                text-decoration: none;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            }
+        }
+
+        .ss-toggle-close {
+            color: #fff;
+            font-size: 2.2rem;
+            padding: 5px 0;
+        }
+    }
+}
+
+.ss-toggle-menu {
+    float: right;
+    font-size: 3.5rem;
+    display: none;
 }
