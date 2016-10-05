@@ -26,24 +26,24 @@ a:hover {
     background-image: url("http://www.softwareseni.com/wp-content/uploads/2016/06/hero-ss.jpg");
     background-size: cover;
     position: relative;
+}
 
-    .navbar {
-        padding: 50px 0 10px;
+.navbar {
+    padding: 50px 0 10px;
 
-        &-brand {
-            width: 300px;
-            margin: 0;
+    &-brand {
+        width: 300px;
+        margin: 0;
 
-            img {
-                width: 100%;
-            }
+        img {
+            width: 100%;
         }
+    }
 
-        .container {
-            .row {
-                align-items: center;
-                justify-content: center;
-            }
+    .container {
+        .row {
+            align-items: center;
+            justify-content: center;
         }
     }
 }
@@ -58,6 +58,7 @@ a:hover {
         li {
             display: inline-block;
             padding-top: 15px;
+
             a {
                 font-size: 1.4rem;
                 padding: 70px 8px 5px;
@@ -72,7 +73,7 @@ a:hover {
             }
         }
 
-        #menu-item-1 {
+        .ss-active-navbar {
             a {
                 background: #15a99e;
                 color: #fff;
@@ -562,4 +563,12 @@ a:hover {
     float: right;
     font-size: 3.5rem;
     display: none;
+}
+
+.ss-page{
+  &-portofolio{
+    .ss-page-header{
+      
+    }
+  }
 }
