@@ -9,6 +9,17 @@
 }
 @media (max-width: 992px) {}
 @media (max-width: 769px) {
+  .navbar{
+    &-brand{
+      width: 170px;
+    }
+
+  }
+  .ss-page {
+      &-header {
+          height: 90vh;
+      }
+  }
     .ss-foot {
         &-contact {
             text-align: center;
@@ -27,6 +38,33 @@
 
     .p-left-8 {
         padding: 0 15px;
+    }
+}
+// @media (min-width:768px) {
+//     .ss-page {
+//         &-header {
+//             height: 70vh;
+//         }
+//     }
+// }
+@media (min-width:768px) and(orientation:portrait) {
+    .ss-page {
+        &-header {
+            height: 50vh;
+        }
+    }
+
+    .ss-portofolio-page {
+        .container {
+            .ss-portofolio-content {
+                .row {
+                    .portofolio-item {
+                      float: none;
+                      display: inline;
+                    }
+                }
+            }
+        }
     }
 }
 @media (max-width: 767px) {

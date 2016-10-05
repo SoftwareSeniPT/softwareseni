@@ -416,13 +416,13 @@ a:hover {
 .ss-page-subtitle {
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin: 24px 0;
+  font-size: 1.8rem; }
 
 .ss-page-header {
-  height: 70vh;
   padding-bottom: 42%;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
@@ -439,5 +439,8 @@ a:hover {
 .ss-portofolio-page {
   padding: 60px 0 40px;
   background: #eaf4f3; }
+
+.ss-menu .nav li a {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
