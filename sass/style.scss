@@ -219,6 +219,12 @@ a:hover {
             text-decoration: none;
             display: block;
             height: 100%;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
         }
     }
 
@@ -565,10 +571,50 @@ a:hover {
     display: none;
 }
 
-.ss-page{
-  &-portofolio{
-    .ss-page-header{
-      
+.ss-page {
+    &-portofolio {
+        .ss-page-header {
+            background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-portfolio.jpg");
+        }
     }
-  }
+
+    &-title {
+        font-size: 6.5rem;
+        font-weight: 500;
+    }
+
+    &-subtitle {
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+
+    &-header {
+        height: 70vh;
+        padding-bottom: 42%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+}
+
+.ss-section {
+    &-title {
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        z-index: 9;
+    }
+}
+
+.ss-portofolio {
+    &-page {
+        padding: 60px 0 40px;
+        background: #eaf4f3;
+    }
 }
