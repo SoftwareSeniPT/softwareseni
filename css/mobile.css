@@ -28,12 +28,16 @@
   .p-left-8 {
     padding: 30px 15px; }
   .ss-foot-sosmed-title {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .ss-caption-button {
+    text-align: center; }
+    .ss-caption-button .ss-btn {
+      width: 71%;
+      margin-bottom: 10px; } }
 
 @media (max-width: 767px) and (orientation: landscape) {
   .ss-caption {
-    position: relative;
-    width: 100%;
+    width: 90%;
     top: 30%; }
     .ss-caption h1 {
       font-size: 2.5rem; }
@@ -42,19 +46,18 @@
       width: 55%;
       display: inline-block; }
     .ss-caption-button {
-      text-align: center;
       margin-top: 15px;
+      padding-left: 50px;
       width: 45%;
       float: right;
       display: inline-block; }
       .ss-caption-button .ss-btn {
         margin-bottom: 10px;
-        margin-left: 20px;
-        width: 71%; } }
+        width: 90%; } }
 
 @media (max-width: 480px) {
   .ss-caption {
-    width: 95%;
+    width: 87%;
     top: 18%; }
     .ss-caption h1 {
       font-size: 2.8rem; }
