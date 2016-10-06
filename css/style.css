@@ -202,6 +202,38 @@ a:hover {
 .ss-wwd {
   padding: 90px 0;
   background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/wwd-bg.jpg"); }
+  .ss-wwd-image {
+    padding: 60px 45px; }
+    .ss-wwd-image img {
+      width: 100%; }
+  .ss-wwd-content-title {
+    color: #304c4a;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0; }
+    .ss-wwd-content-title:after {
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      margin: 0 auto;
+      background: #15a99e; }
+  .ss-wwd-list {
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 1.8rem; }
+    .ss-wwd-list:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      background: #15a99e;
+      border-radius: 50%; }
   .ss-wwd-title {
     position: relative;
     font-size: 4.0rem;
@@ -239,19 +271,17 @@ a:hover {
       font-size: 2.4rem;
       font-weight: 900;
       margin: 15px 0 20px; }
-    .ss-wwd-top-list {
-      position: relative;
-      padding: 0 0 20px 18px;
-      font-size: 1.8rem; }
-      .ss-wwd-top-list:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 8px;
-        width: 8px;
-        height: 8px;
-        background: #15a99e;
-        border-radius: 50%; }
+  .ss-wwd-page {
+    padding: 100px 90px;
+    background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/wwd-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .ss-wwd-page p {
+      font-size: 1.8rem;
+      margin: 18px 0; }
+    .ss-wwd-page .ss-wwd-content {
+      padding: 60px 45px; }
 
 .m-lr-0 {
   margin: 0; }
@@ -388,8 +418,7 @@ a:hover {
   padding: 20px;
   top: 0;
   z-index: 999;
-  width: 260px;
-  overflow: scroll; }
+  width: 260px; }
   .ss-responsive-menu .main-menu {
     padding: 0; }
     .ss-responsive-menu .main-menu li {
@@ -411,6 +440,9 @@ a:hover {
   font-size: 3.5rem;
   display: none; }
 
+.ss-page-wwd .ss-page-header {
+  background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/Hero-Images-2.jpg"); }
+
 .ss-page-portofolio .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-portfolio.jpg"); }
 
@@ -429,7 +461,6 @@ a:hover {
   padding-bottom: 42%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   position: relative; }
 
 .ss-section-title {

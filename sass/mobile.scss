@@ -6,6 +6,18 @@
     .ss-head-menu {
         display: none;
     }
+
+    .ss-wwd {
+        &-image {
+            &.ss-pull-right {
+              img{
+                position: absolute;
+                left: -22%;
+                width: 130%;
+              }
+            }
+        }
+    }
 }
 @media (max-width: 992px) {}
 @media (max-width: 769px) {
@@ -41,6 +53,22 @@
     .p-left-8 {
         padding: 0 15px;
     }
+    .ss-wwd {
+        &-image {
+            &.ss-pull-right {
+              img{
+                position:static;
+                width: 100%;
+              }
+            }
+        }
+        &-mob{
+          float: none;
+          width: 100%;
+        }
+    }
+
+
 }
 @media (min-width:768px) {
     .ss-page {
@@ -116,6 +144,10 @@
     }
 }
 @media (max-width: 767px) and (orientation:landscape) {
+    .ss-responsive-menu {
+        overflow-y: scroll;
+    }
+
     .ss-caption {
         width: 90%;
 
@@ -212,6 +244,11 @@
                 }
             }
         }
+    }
+    .ss-wwd{
+      &-page{
+        padding: 100px 15px;
+      }
     }
 }
 @media (max-width:340px) {
