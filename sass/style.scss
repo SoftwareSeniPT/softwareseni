@@ -636,6 +636,12 @@ a:hover {
         }
     }
 
+    &-wwa {
+        .ss-page-header {
+            background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg");
+        }
+    }
+
     &-title {
         font-size: 6.5rem;
         font-weight: 500;
@@ -682,6 +688,67 @@ a:hover {
             a {
                 color: #fff;
             }
+        }
+    }
+}
+
+.ss-bg-green {
+    padding: 40px 0;
+    background: #eaf4f3;
+
+    .ss-wwa {
+        &-image {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-content {
+            padding: 60px 0 30px;
+
+            h2 {
+                font-weight: bold;
+                font-size: 2.1rem;
+                margin: 18px 0;
+                color: #304c4a;
+            }
+
+            p {
+                font-size: 1.8rem;
+                margin: 18px 0;
+            }
+        }
+    }
+}
+
+.ss-wwa-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 60px 0 80px;
+
+    .ss-img-grid {
+        background-color: aliceblue;
+        margin: 2px;
+        height: 241px;
+        width: 192px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .ss-staff-caption {
+            padding: 5px 4px;
+            height: 100%;
+            width: 100%;
+            background-color: #21ABA1;
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
     }
 }

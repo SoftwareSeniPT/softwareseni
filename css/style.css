@@ -446,6 +446,9 @@ a:hover {
 .ss-page-portofolio .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-portfolio.jpg"); }
 
+.ss-page-wwa .ss-page-header {
+  background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg"); }
+
 .ss-page-title {
   font-size: 6.5rem;
   font-weight: 500; }
@@ -478,5 +481,48 @@ a:hover {
 
 .ss-menu .nav li a {
   color: #fff; }
+
+.ss-bg-green {
+  padding: 40px 0;
+  background: #eaf4f3; }
+  .ss-bg-green .ss-wwa-image img {
+    width: 100%; }
+  .ss-bg-green .ss-wwa-content {
+    padding: 60px 0 30px; }
+    .ss-bg-green .ss-wwa-content h2 {
+      font-weight: bold;
+      font-size: 2.1rem;
+      margin: 18px 0;
+      color: #304c4a; }
+    .ss-bg-green .ss-wwa-content p {
+      font-size: 1.8rem;
+      margin: 18px 0; }
+
+.ss-wwa-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 60px 0 80px; }
+  .ss-wwa-flex-container .ss-img-grid {
+    background-color: aliceblue;
+    margin: 2px;
+    height: 241px;
+    width: 192px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .ss-wwa-flex-container .ss-img-grid .ss-staff-caption {
+      padding: 5px 4px;
+      height: 100%;
+      width: 100%;
+      background-color: #21ABA1;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
