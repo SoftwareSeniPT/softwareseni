@@ -46,6 +46,12 @@ a:hover {
             justify-content: center;
         }
     }
+
+    &-custom {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
 }
 
 .ss-head-menu {

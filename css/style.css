@@ -33,6 +33,10 @@ a:hover {
   .navbar .container .row {
     align-items: center;
     justify-content: center; }
+  .navbar-custom {
+    position: absolute;
+    z-index: 1;
+    width: 100%; }
 
 .ss-head-menu .nav {
   padding: 0;
