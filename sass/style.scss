@@ -641,7 +641,11 @@ a:hover {
             background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg");
         }
     }
-
+  &-contact{
+    .ss-page-header{
+      background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg");
+    }
+  }
     &-title {
         font-size: 6.5rem;
         font-weight: 500;
