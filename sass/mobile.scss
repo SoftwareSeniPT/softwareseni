@@ -42,13 +42,13 @@
         padding: 0 15px;
     }
 }
-// @media (min-width:768px) {
-//     .ss-page {
-//         &-header {
-//             height: 70vh;
-//         }
-//     }
-// }
+@media (min-width:768px) {
+    .ss-page {
+        &-header {
+            height: 70vh;
+        }
+    }
+}
 @media (min-width:768px) and(orientation:portrait) {
     .ss-page {
         &-header {
@@ -143,6 +143,17 @@
         }
     }
 }
+@media (max-width:740px) {
+    .ss-page {
+        &-title {
+            font-size: 2.8rem;
+        }
+
+        &-subtitle {
+            font-size: 1.4rem;
+        }
+    }
+}
 @media (max-width: 569px) and(orientation:landscape) {
     .ss-hero {
         height: 125vh;
@@ -154,6 +165,10 @@
                 font-size: 1.6rem;
             }
         }
+    }
+
+    .ss-section-title {
+        bottom: 30px;
     }
 }
 @media (max-width: 480px) and (orientation:landscape) {
@@ -169,6 +184,10 @@
                 }
             }
         }
+    }
+
+    .ss-section-title {
+        bottom: 15px;
     }
 }
 @media (max-width: 480px) {
