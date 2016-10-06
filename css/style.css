@@ -388,7 +388,8 @@ a:hover {
   padding: 20px;
   top: 0;
   z-index: 999;
-  width: 260px; }
+  width: 260px;
+  overflow: scroll; }
   .ss-responsive-menu .main-menu {
     padding: 0; }
     .ss-responsive-menu .main-menu li {
