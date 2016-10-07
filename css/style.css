@@ -98,7 +98,8 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   background: #304c4a;
-  font-family: 'bree_serif', Arial, sans-serif; }
+  font-family: 'bree_serif', Arial, sans-serif;
+  border: 0; }
   .ss-btn.btn-1 {
     background: #15a99e; }
   .ss-btn:hover {
@@ -425,11 +426,22 @@ a:hover {
 .ss-page-wwa .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg"); }
 
+.ss-page-support .ss-page-header {
+  background-image: url(http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/dot-rec-bg.png); }
+
 .ss-page-contact .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg"); }
 
 .ss-page-contact .ss-bg-green {
   padding: 0; }
+  .ss-page-contact .ss-bg-green h1,
+  .ss-page-contact .ss-bg-green h3 {
+    color: #304c4a;
+    font-weight: bold; }
+  .ss-page-contact .ss-bg-green h1 {
+    margin: 19px 0; }
+  .ss-page-contact .ss-bg-green h3 {
+    margin: 17px 0; }
 
 .ss-page-contact .ss-contact-detail {
   padding: 60px 45px 40px;
@@ -438,13 +450,6 @@ a:hover {
     color: #c0c0c0; }
   .ss-page-contact .ss-contact-detail p {
     font-size: 1.8rem; }
-  .ss-page-contact .ss-contact-detail h1, .ss-page-contact .ss-contact-detail h3 {
-    color: #304c4a;
-    font-weight: bold; }
-  .ss-page-contact .ss-contact-detail h1 {
-    margin: 19px 0; }
-  .ss-page-contact .ss-contact-detail h3 {
-    margin: 17px 0; }
   .ss-page-contact .ss-contact-detail .ss-contact-number p {
     display: inline-block;
     margin-left: 10px; }
@@ -456,6 +461,24 @@ a:hover {
     .ss-page-contact .ss-contact-detail .ss-contact-socmed i {
       color: #5d817d;
       margin-right: 10px; }
+
+.ss-page-contact .ss-contact-feedback {
+  padding: 60px 45px; }
+  .ss-page-contact .ss-contact-feedback-form .ss-contact-form {
+    margin-right: 15px; }
+    .ss-page-contact .ss-contact-feedback-form .ss-contact-form input {
+      width: 45%;
+      padding: 5px;
+      margin-bottom: 15px;
+      font-size: 18px; }
+    .ss-page-contact .ss-contact-feedback-form .ss-contact-form input.subject {
+      width: 93% !important;
+      font-size: 18px; }
+    .ss-page-contact .ss-contact-feedback-form .ss-contact-form textarea.message {
+      width: 93% !important;
+      font-size: 18px;
+      height: 90px !important;
+      margin-bottom: 15px; }
 
 .ss-page-title {
   font-size: 6.5rem;

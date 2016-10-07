@@ -139,6 +139,7 @@ a:hover {
     letter-spacing: 1px;
     background: #304c4a;
     font-family: 'bree_serif', Arial, sans-serif;
+    border: 0;
 
     &.btn-1 {
         background: #15a99e;
@@ -593,7 +594,11 @@ a:hover {
             background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg");
         }
     }
-
+    &-support{
+      .ss-page-header{
+        background-image: url(http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/dot-rec-bg.png);
+      }
+    }
     &-contact {
         .ss-page-header {
             background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg");
@@ -601,27 +606,34 @@ a:hover {
 
         .ss-bg-green {
             padding: 0;
+
+            h1,
+            h3 {
+                color: #304c4a;
+                font-weight: bold;
+            }
+
+            h1 {
+                margin: 19px 0;
+            }
+
+            h3 {
+                margin: 17px 0;
+            }
         }
 
         .ss-contact-detail {
             padding: 60px 45px 40px;
             background: #fff;
-            i{
-              color:#c0c0c0;
+
+            i {
+                color: #c0c0c0;
             }
-            p{
-              font-size: 1.8rem;
+
+            p {
+                font-size: 1.8rem;
             }
-            h1,h3{
-              color: #304c4a;
-              font-weight: bold;
-            }
-            h1{
-              margin: 19px 0;
-            }
-            h3{
-              margin: 17px 0;
-            }
+
             .ss-contact-number {
                 p {
                     display: inline-block;
@@ -635,12 +647,43 @@ a:hover {
                     margin-left: 10px;
                 }
             }
-            .ss-contact-socmed{
-              margin-top:20px;
-              i{
-                color: #5d817d;
-                margin-right: 10px;
-              }
+
+            .ss-contact-socmed {
+                margin-top: 20px;
+
+                i {
+                    color: #5d817d;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .ss-contact-feedback {
+            padding: 60px 45px;
+
+            &-form {
+                .ss-contact-form {
+                    margin-right: 15px;
+
+                    input {
+                        width: 45%;
+                        padding: 5px;
+                        margin-bottom: 15px;
+                        font-size: 18px;
+                    }
+
+                    input.subject {
+                        width: 93% !important;
+                        font-size: 18px;
+                    }
+
+                    textarea.message {
+                        width: 93% !important;
+                        font-size: 18px;
+                        height: 90px !important;
+                        margin-bottom: 15px;
+                    }
+                }
             }
         }
     }
