@@ -168,30 +168,6 @@ a:hover {
         height: 100%;
         width: 100%;
         object-fit: cover; }
-  .portofolio-1 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-295-1.jpg") center center/cover; }
-  .portofolio-2 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2015/10/balivillasgroup.png") center center/cover; }
-  .portofolio-3 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-295.jpg") center center/cover; }
-  .portofolio-4 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2015/10/eazyspa.jpg") center center/cover; }
-  .portofolio-5 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-293.jpg") center center/cover; }
-  .portofolio-6 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Retirement-Villages2020-Over-50s-Living-For-Sale2020-Rent-e1472612768462.png") center center/cover; }
-  .portofolio-7 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Villalet-1024x512.jpg") center center/cover; }
-  .portofolio-8 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/bhavanavillasseminyak.com_.jpg") center center/cover; }
-  .portofolio-9 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Luxelet.jpg") center center/cover; }
-  .portofolio-10 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/theagency.png") center center/cover; }
-  .portofolio-11 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/shcbond.png") center center/cover; }
-  .portofolio-12 {
-    background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Skills2oz-Australia-jobs-for-skilled-foreign-workers..png") center center/cover; }
 
 .text-center {
   text-align: center; }
@@ -452,6 +428,35 @@ a:hover {
 .ss-page-contact .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg"); }
 
+.ss-page-contact .ss-bg-green {
+  padding: 0; }
+
+.ss-page-contact .ss-contact-detail {
+  padding: 60px 45px 40px;
+  background: #fff; }
+  .ss-page-contact .ss-contact-detail i {
+    color: #c0c0c0; }
+  .ss-page-contact .ss-contact-detail p {
+    font-size: 1.8rem; }
+  .ss-page-contact .ss-contact-detail h1, .ss-page-contact .ss-contact-detail h3 {
+    color: #304c4a;
+    font-weight: bold; }
+  .ss-page-contact .ss-contact-detail h1 {
+    margin: 19px 0; }
+  .ss-page-contact .ss-contact-detail h3 {
+    margin: 17px 0; }
+  .ss-page-contact .ss-contact-detail .ss-contact-number p {
+    display: inline-block;
+    margin-left: 10px; }
+  .ss-page-contact .ss-contact-detail .ss-contact-email p {
+    display: inline-block;
+    margin-left: 10px; }
+  .ss-page-contact .ss-contact-detail .ss-contact-socmed {
+    margin-top: 20px; }
+    .ss-page-contact .ss-contact-detail .ss-contact-socmed i {
+      color: #5d817d;
+      margin-right: 10px; }
+
 .ss-page-title {
   font-size: 6.5rem;
   font-weight: 500; }
@@ -500,6 +505,9 @@ a:hover {
     .ss-bg-green .ss-wwa-content p {
       font-size: 1.8rem;
       margin: 18px 0; }
+
+.ss-bg-dark-green {
+  background: #d1ebea; }
 
 .ss-wwa-flex-container {
   display: flex;

@@ -233,54 +233,6 @@ a:hover {
             }
         }
     }
-
-    &-1 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-295-1.jpg") center center / cover;
-    }
-
-    &-2 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2015/10/balivillasgroup.png") center center / cover;
-    }
-
-    &-3 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-295.jpg") center center / cover;
-    }
-
-    &-4 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2015/10/eazyspa.jpg") center center / cover;
-    }
-
-    &-5 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/04/2016-04-293.jpg") center center / cover;
-    }
-
-    &-6 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Retirement-Villages2020-Over-50s-Living-For-Sale2020-Rent-e1472612768462.png") center center / cover;
-    }
-
-    &-7 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Villalet-1024x512.jpg") center center / cover;
-    }
-
-    &-8 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/bhavanavillasseminyak.com_.jpg") center center / cover;
-    }
-
-    &-9 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Luxelet.jpg") center center / cover;
-    }
-
-    &-10 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/theagency.png") center center / cover;
-    }
-
-    &-11 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/shcbond.png") center center / cover;
-    }
-
-    &-12 {
-        background: url("http://www.softwareseni.com/wp-content/uploads/2016/06/Skills2oz-Australia-jobs-for-skilled-foreign-workers..png") center center / cover;
-    }
 }
 
 .text-center {
@@ -641,11 +593,58 @@ a:hover {
             background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg");
         }
     }
-  &-contact{
-    .ss-page-header{
-      background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg");
+
+    &-contact {
+        .ss-page-header {
+            background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg");
+        }
+
+        .ss-bg-green {
+            padding: 0;
+        }
+
+        .ss-contact-detail {
+            padding: 60px 45px 40px;
+            background: #fff;
+            i{
+              color:#c0c0c0;
+            }
+            p{
+              font-size: 1.8rem;
+            }
+            h1,h3{
+              color: #304c4a;
+              font-weight: bold;
+            }
+            h1{
+              margin: 19px 0;
+            }
+            h3{
+              margin: 17px 0;
+            }
+            .ss-contact-number {
+                p {
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+
+            .ss-contact-email {
+                p {
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+            .ss-contact-socmed{
+              margin-top:20px;
+              i{
+                color: #5d817d;
+                margin-right: 10px;
+              }
+            }
+        }
     }
-  }
+
     &-title {
         font-size: 6.5rem;
         font-weight: 500;
@@ -723,6 +722,10 @@ a:hover {
             }
         }
     }
+}
+
+.ss-bg-dark-green {
+    background: #d1ebea;
 }
 
 .ss-wwa-flex-container {
