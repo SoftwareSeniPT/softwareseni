@@ -78,17 +78,7 @@ a:hover {
     width: 100%;
     float: left; }
     .ss-caption-button .ss-btn {
-      margin-right: 10px;
-      padding: 10px 25px;
-      font-size: 1.8rem;
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      background: #304c4a;
       float: left; }
-      .ss-caption-button .ss-btn.btn-1 {
-        background: #15a99e; }
 
 .ss-btn {
   padding: 10px 25px;
@@ -433,8 +423,21 @@ a:hover {
 .ss-page-wwa .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg"); }
 
-.ss-page-support .ss-page-header {
+.ss-page-404 .ss-page-header, .ss-page-blog .ss-page-header, .ss-page-support .ss-page-header {
   background-image: url("http://www.softwareseni.com//wp-content/uploads/2015/08/hero-career.jpg"); }
+
+.ss-page-404 .ss-btn-404 {
+  color: #15A9A8;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: normal;
+  text-decoration: none !important;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-color: #15A9A8;
+  border-style: solid;
+  border-width: medium;
+  cursor: pointer; }
 
 .ss-page-contact .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg"); }

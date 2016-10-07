@@ -113,19 +113,7 @@ a:hover {
         float: left;
 
         .ss-btn {
-            margin-right: 10px;
-            padding: 10px 25px;
-            font-size: 1.8rem;
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            background: #304c4a;
             float: left;
-
-            &.btn-1 {
-                background: #15a99e;
-            }
         }
     }
 }
@@ -243,9 +231,11 @@ a:hover {
 .m-top {
     margin-top: 50px;
 }
-.ss-pull-right{
-  float: right;
+
+.ss-pull-right {
+    float: right;
 }
+
 .ss-wwd {
     padding: 90px 0;
     background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/wwd-bg.jpg");
@@ -605,9 +595,27 @@ a:hover {
         }
     }
 
+    &-404,
+    &-blog,
     &-support {
         .ss-page-header {
             background-image: url("http://www.softwareseni.com//wp-content/uploads/2015/08/hero-career.jpg");
+        }
+    }
+
+    &-404 {
+        .ss-btn-404 {
+            color: #15A9A8;
+            text-transform: uppercase;
+            margin: 0;
+            font-weight: normal;
+            text-decoration: none !important;
+            padding: 5px 10px;
+            background-color: transparent;
+            border-color: #15A9A8;
+            border-style: solid;
+            border-width: medium;
+            cursor: pointer;
         }
     }
 
