@@ -176,6 +176,9 @@ a:hover {
 .m-top {
   margin-top: 50px; }
 
+.ss-pull-right {
+  float: right; }
+
 .ss-wwd {
   padding: 90px 0;
   background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/wwd-bg.jpg"); }
@@ -183,6 +186,10 @@ a:hover {
     padding: 60px 45px; }
     .ss-wwd-image img {
       width: 100%; }
+    .ss-wwd-image.ss-pull-right img {
+      position: absolute;
+      left: -22%;
+      width: 130%; }
   .ss-wwd-content-title {
     color: #304c4a;
     position: relative;
@@ -427,7 +434,7 @@ a:hover {
   background-image: url("http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/hero-who-we-are.jpg"); }
 
 .ss-page-support .ss-page-header {
-  background-image: url(http://www.softwareseni.com/wp-content/themes/softwareseni_v2/assets/images/dot-rec-bg.png); }
+  background-image: url("http://www.softwareseni.com//wp-content/uploads/2015/08/hero-career.jpg"); }
 
 .ss-page-contact .ss-page-header {
   background-image: url("http://www.softwareseni.com/wp-content/uploads/2015/08/hero-contact.jpg"); }
@@ -558,5 +565,34 @@ a:hover {
       align-items: center;
       justify-content: center;
       text-align: center; }
+
+.ss-support-page {
+  padding: 60px 0; }
+  .ss-support-page h4 {
+    font-weight: bold;
+    margin: 20px 0; }
+
+.ss-support-title {
+  background: #15a99e;
+  color: #fff;
+  padding: 8px 20px; }
+
+.ss-support-menu {
+  border: 1px solid #15a99e;
+  padding: 15px 15px 7px;
+  border-top: 0; }
+  .ss-support-menu a {
+    display: block;
+    background-color: #f4faff;
+    background-image: -webkit-linear-gradient(#fffffe, #f4fffe);
+    background-image: linear-gradient(#fffffe, #f4fffe);
+    border: 1px solid #15a99e;
+    color: #15a99e;
+    margin-bottom: 10px;
+    height: 40px;
+    min-height: auto;
+    border-radius: 3px;
+    padding: 8px 10px;
+    outline: 0; }
 
 /*# sourceMappingURL=style.css.map */
