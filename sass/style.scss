@@ -860,3 +860,15 @@ a:hover {
         }
     }
 }
+
+.ss-blog-page{
+  padding: 60px 0;
+  .ss-post-page{
+    &-title{
+      margin: 21px 0;
+      font-weight: bold;
+      font-size: 3rem;
+      color: #304c4a;
+    }
+  }
+}
