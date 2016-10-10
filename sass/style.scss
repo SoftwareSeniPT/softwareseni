@@ -114,6 +114,7 @@ a:hover {
 
         .ss-btn {
             float: left;
+            margin-right: 5px;
         }
     }
 }
@@ -209,17 +210,54 @@ a:hover {
         background-position: center;
         box-sizing: border-box;
         margin-bottom: 15px;
+        display: block;
+        position: relative;
+
+        .ss-portofolio-caption {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            padding: 20px;
+            color: #343434;
+            text-align: left;
+
+            &-title {
+                font-family: 'bree_serif', Arial, sans-serif;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            &-more {
+                width: 85%;
+                display: block;
+                border-top: 1px solid #e6e6e6;
+                position: absolute;
+                bottom: 0;
+                padding: 7px 0;
+                text-transform: uppercase;
+                color: white;
+            }
+        }
 
         a {
             text-decoration: none;
             display: block;
             height: 100%;
+            width: 100%;
 
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
             }
+        }
+
+        a:hover {
+            width: 100%;
+            height: 100%;
         }
     }
 }
@@ -861,14 +899,34 @@ a:hover {
     }
 }
 
-.ss-blog-page{
-  padding: 60px 0;
-  .ss-post-page{
-    &-title{
-      margin: 21px 0;
-      font-weight: bold;
-      font-size: 3rem;
-      color: #304c4a;
+.ss-blog-page {
+    padding: 60px 0;
+
+    .ss-post-page {
+        &-title {
+            margin: 21px 0;
+            font-weight: bold;
+            font-size: 3rem;
+            color: #304c4a;
+        }
     }
-  }
+}
+
+.ss-grid-caption {
+    &-title {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 1.8rem;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+
+        &:after {
+            display: block;
+            content: ".....";
+        }
+    }
 }
