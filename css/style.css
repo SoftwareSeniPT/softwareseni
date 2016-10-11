@@ -38,7 +38,8 @@ a:hover {
     z-index: 1;
     width: 100%; }
   .navbar .ss-toggle-menu {
-    color: #304c4a; }
+    color: #304c4a;
+    cursor: pointer; }
 
 .ss-head-menu .nav {
   padding: 0;
