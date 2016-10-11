@@ -69,7 +69,13 @@ a:hover {
                 font-size: 1.4rem;
                 padding: 70px 8px 5px;
                 text-transform: uppercase;
+
+            }
+            .menu-green{
                 color: #304c4a;
+            }
+            .menu-white{
+              color: #fff;
             }
 
             a:hover {
@@ -84,6 +90,7 @@ a:hover {
                 background: #15a99e;
                 color: #fff;
             }
+
         }
     }
 }

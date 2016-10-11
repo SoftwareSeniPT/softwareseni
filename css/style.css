@@ -49,8 +49,11 @@ a:hover {
     .ss-head-menu .nav li a {
       font-size: 1.4rem;
       padding: 70px 8px 5px;
-      text-transform: uppercase;
+      text-transform: uppercase; }
+    .ss-head-menu .nav li .menu-green {
       color: #304c4a; }
+    .ss-head-menu .nav li .menu-white {
+      color: #fff; }
     .ss-head-menu .nav li a:hover {
       background: #15a99e;
       text-decoration: none;
