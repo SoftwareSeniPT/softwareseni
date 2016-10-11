@@ -62,6 +62,9 @@ a:hover {
     background: #15a99e;
     color: #fff; }
 
+.ss-head-menu .ss-toggle-menu {
+  color: #304c4a; }
+
 .ss-caption {
   width: 550px;
   font-weight: normal;
