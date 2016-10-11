@@ -37,6 +37,8 @@ a:hover {
     position: absolute;
     z-index: 1;
     width: 100%; }
+  .navbar .ss-toggle-menu {
+    color: #304c4a; }
 
 .ss-head-menu .nav {
   padding: 0;
@@ -61,9 +63,6 @@ a:hover {
   .ss-head-menu .nav .ss-active-navbar a {
     background: #15a99e;
     color: #fff; }
-
-.ss-head-menu .ss-toggle-menu {
-  color: #304c4a; }
 
 .ss-caption {
   width: 550px;
